@@ -1,0 +1,51 @@
+
+body{
+     background-image: url(/web/Codingbootcamp/exercises/Cofee/src/img/coffee-photo.jpg);
+    width: 100vw;
+    margin:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+      
+    align-items: center;  
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(70, 27, 27, 0.8);
+
+}
+.button{
+    background-color: brown;
+    border-color: white;
+    margin: 2rem;
+    color: white;
+    font-size: 1rem;
+    width: 30vw;
+}
+p{
+    flex-grow: 1; 
+}
+h1{
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    
+}
+@media(min-width:992px){
+    body{
+       align-items: flex-end;
+       width: 35%;
+       justify-content: right;    
+    }
+    h1{
+        ;
+    }
+
+
+}
